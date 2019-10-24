@@ -1,6 +1,6 @@
 list.of.packages <- c("R.matlab", "Matrix", "ggplot2", "Rtsne", "svd", "dplyr", "plyr",
                       "data.table", "mclust", "flexclust", "reshape2",
-                      "irlba","dynamicTreeCut", "RColorBrewer","GenSA")
+                      "irlba","dynamicTreeCut", "RColorBrewer","GenSA","gplots")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 
